@@ -27,7 +27,7 @@ router.get('/url', (req, res) => res.json({ route: req.originalUrl }));
 app.use(bodyParser.json());
 
 // and use the router defined above
-app.use('/.netlify/functions/server', router);  // path must route to lambda
+app.use('/api', router);  // path must route to lambda
 
 // Export app
 module.exports = app;
