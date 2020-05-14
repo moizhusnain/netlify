@@ -4,6 +4,6 @@
 
 [[redirects]]
   from = "/api/*"
-  to = "/.netlify/functions/servers/:splat"
-  status = 301
+  to = "/.netlify/functions/server/:splat"
+  status = 200
   force = false
